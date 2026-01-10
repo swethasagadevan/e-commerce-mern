@@ -14,7 +14,7 @@ const MyOrder = () => {
   return (
     <div>
       <div className='p-5 animate-pulse'>
-    <Link to ="/" className='underline text-blue-500'> Continue shopping.😃</Link>
+    <Link to ="/" className='bg-orange-400 p-2 text-white rounded-lg'> Continue shopping.😃</Link>
    </div>
 
       {myOrders.map(data=>{ 
