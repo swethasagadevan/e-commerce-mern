@@ -12,7 +12,7 @@ const WishList = () => {
     
    <>
    <div>
-    <Link to ="/" className='underline text-blue-500 p-5'> Continue shopping.</Link>
+    <Link to ="/" className='bg-orange-400 p-2 text-white rounded-lg'> Continue shopping.😃</Link>
     </div>
     {favList.length==0 ? <div className='text-center p-5'>Wishlist is Empty.</div> :
     <>
