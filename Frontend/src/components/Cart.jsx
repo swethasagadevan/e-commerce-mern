@@ -21,7 +21,7 @@ const Cart = () => {
   return(
      <>
      <div className='p-5 animate-pulse'>
-    <Link to ="/" className='underline text-blue-500'> Continue shopping.😃</Link>
+    <Link to ="/" className='bg-orange-400 p-2 text-white rounded-lg'> Continue shopping.😃</Link>
    </div>
    {cartList.length==0? <div className='text-center p-5'>Cart is Empty</div> : <>
    <div className='flex justify-around items-center'>
