@@ -20,7 +20,7 @@ const Cart = () => {
 
   return(
      <>
-     <div className='p-5 animate-pulse'>
+     <div className='p-5'>
     <Link to ="/" className='bg-orange-400 p-2 text-white rounded-lg'> Continue shopping.😃</Link>
    </div>
    {cartList.length==0? <div className='text-center p-5'>Cart is Empty</div> : <>
