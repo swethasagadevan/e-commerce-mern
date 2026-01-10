@@ -30,10 +30,7 @@ const Header = () => {
   return (
     <div className='flex justify-around items-center p-2 border-b sticky bg-white top-0 z-10'>
         <Link to="/" className='text-2xl font-bold'>BUYLO 🛍️ </Link>
-        <div className='hidden md:flex border-2 border-black p-2 items-center rounded-full gap-2 w-1/2'>
-          <input type="text" placeholder='Search for items here...' className='bg-transparent border-none w-full focus:outline-none'/>
-          <FaSearch/>
-        </div>
+        
         
         <div className='hidden lg:flex items-center gap-1'>
           <div className='mx-2'>
