@@ -13,7 +13,7 @@ const MyOrder = () => {
   // console.log(myOrders)
   return (
     <div>
-      <div className='p-5 animate-pulse'>
+      <div className='p-5'>
     <Link to ="/" className='bg-orange-400 p-2 text-white rounded-lg'> Continue shopping.😃</Link>
    </div>
 
