@@ -57,7 +57,7 @@ const Header = () => {
         {menuOpen && <div className='absolute left-0 top-0 bg-black text-white h-screen w-1/2 p-3'>
         <p className='text-right' onClick={handleMenuClose}>X</p>
         <div className='mx-2 mb-2'>
-                {loggedInUser.length==0?"Hi,Login":`Hi, ${loggedInUser}`}
+                {loggedInUser.length==0?"":`Hi, ${loggedInUser}`}
                 {loggedInUser.length==0?<Link to="/login" className='hover:underline p-4'>Login | Register</Link>:
                 <Link to="/login" className='hover:underline p-2 bg-white m-4 text-black'>Logout</Link>}
           </div> 
