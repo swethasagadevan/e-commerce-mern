@@ -28,7 +28,7 @@ const Header = () => {
   }
 
   return (
-    <div className='flex justify-around items-center p-2 border-b sticky bg-white top-0 z-10'>
+    <div className='flex justify-between items-center p-2 border-b sticky bg-white top-0 z-10'>
         <Link to="/" className='text-2xl font-bold'>BUYLO 🛍️ </Link>
         
         
