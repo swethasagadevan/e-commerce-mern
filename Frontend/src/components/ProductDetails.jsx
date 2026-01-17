@@ -24,7 +24,7 @@ const ProductDetails = () => {
             <button className='bg-orange-300 px-4 py-2 rounded-xl' onClick={()=>handleBuyNow(product.priceCents)}>Buy Now</button>
        
             
-            <p>{product.description}</p>
+            <p>{product?.description}</p>
         </div>
     </div>
   )
